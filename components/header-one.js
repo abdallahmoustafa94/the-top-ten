@@ -42,17 +42,17 @@ const HeaderOne = () => {
     >
       <Container fluid>
         <Row className="justify-content-between">
-          <Col className="col-4" lg={4} md={4} sm={4}>
+          <Col className="col-6" lg={2} md={3} sm={3}>
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src={LogoImage.light} alt=""  style={{width:'60px'}}/>
+                  <img src={LogoImage.light} alt="" style={{width:'60px'}} />
                 </a>
               </Link>
             </div>
           </Col>
-          <Col lg={8} sm={8} md={8} className="d-none d-lg-block ">
-            <nav className="mainmenu text-left">
+          <Col lg={8} sm={8} md={7} className="d-none d-lg-block ">
+            <nav className="mainmenu text-center">
               <ul>
                 {NavLinks.map((links, index) => {
                   return (
@@ -65,7 +65,7 @@ const HeaderOne = () => {
                       }`}
                     >
                       <Link href={links.url}>
-                        <a style={{textAlign:'left'}}>{links.name}</a>
+                        <a>{links.name}</a>
                       </Link>
                       {undefined !== links.subItems ? (
                         <ul className="sub-menu">
@@ -84,8 +84,8 @@ const HeaderOne = () => {
               </ul>
             </nav>
           </Col>
-          {/* <Col lg={2} md={2} sm={4} className="col-6">
-            <div className="navigator text-right">
+          <Col lg={2} md={2} sm={4} className="col-6">
+            <div className="navigator text-left">
               <a
                 className="search searchToggler"
                 href="#"
@@ -108,7 +108,7 @@ const HeaderOne = () => {
                 <i className="mei-menu"></i>
               </a>
             </div>
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </header>
