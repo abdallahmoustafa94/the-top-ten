@@ -51,12 +51,11 @@ const ClientCarouselOne = () => {
       <Container>
         <Row>
           <Col lg={12} className="text-center">
-            <h4 className="sub_title">{subTitle}</h4>
             <h2 className="sec_title">{title}</h2>
             <p className="sec_desc">{text}</p>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col lg={12}>
             <Swiper className="client_slider" {...carouselOptions}>
               {items.map(({ url, image }, index) => (
@@ -76,7 +75,7 @@ const ClientCarouselOne = () => {
               ></div>
             </Swiper>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </section>
   );

@@ -66,18 +66,18 @@ export const SliderOneData = [
   {
     image: sliderOne01,
     subTitle: "مرحبا بك في الاوائل",
-    title: "افضل شركة تسويق الكتروني",
+    title: "افضل شركة للتطوير والتسويق الالكتروني والتدريب",
     button: {
-      label: "المزيد",
+      label: "انشئ موقعآ آفضل ومميز بامكانيات عالية",
       url: "/about"
     }
   },
   {
     image: sliderOne02,
     subTitle: "مرحبا بك في الاوائل",
-    title: "افضل شركة تسويق الكتروني",
+    title: "افضل شركة للتطوير والتسويق الالكتروني والتدريب",
     button: {
-      label: "المزيد",
+      label: "انشئ موقعا افضل ومميز بامكانيات عالية",
       url: "/about"
     }
   }
@@ -209,7 +209,7 @@ export const ContactInfosList = [
 
 export const ContactFormTitle = {
   subTitle: "تواصل معنا",
-  title: "ارسل رسالتك",
+  title: "لخدمتك بشكل افضل من قبل مستشارينا المختصين",
   description:
     "نحن ملتزمون بتوفير خدمة استثنائية لعملائنا، في حين نقدم لموظفينا أفضل التدريبات. "
 };
@@ -490,7 +490,7 @@ export const ServiceHomeThreeData = {
 export const ServicePostTwoData = {
   sectionContent: {
     title: "نصمم منتجات رقمية تساعد على نمو الأعمال.",
-    subTitle: "الخدمات التي نقدمها",
+    subTitle: "خدمات تطويرية وتسويقية حديثة واستراتيجيات مبتكرة ومدروسة لمشروعك",
     text:
       "نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع تقديم أفضل التدريبات لموظفينا."
   },
@@ -555,20 +555,20 @@ export const ServicePostThreeData = {
 
 export const FunfactData = [
   {
-    title: "المشاريع المكتملة",
+    title: "مشاريع تطويرية",
     countNumber: 325
   },
   {
     title: "العملاء النشطاء",
-    countNumber: 50
+    countNumber: 60
   },
   {
-    title: "أكواب القهوة",
+    title: "الاعمال",
     countNumber: 626
   },
   {
     title: "عملاؤنا السعداء",
-    countNumber: 200
+    countNumber: 300
   }
 ];
 
@@ -590,10 +590,10 @@ import ClientCarousel05 from "@/images/client/5.png";
 
 export const ClientCarouselData = {
   sectionContent: {
-    title: "يثقون بنا",
+    title: "عملاؤنا",
     subTitle: "عملاؤنا",
     text:
-      "نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع تقديم أفضل التدريبات لموظفينا."
+      "احترامًا الاتفاق والسرية التامة للعميل لم نقم باضافة عملائنا في موقعنا"
   },
   items: [
     {
@@ -630,7 +630,7 @@ export const AboutOneData = {
   gallery: [aboutOne01, aboutOne02],
   counter: {
     title: "تأسست الشركة.",
-    number: 1990
+    number: 2019
   }
 };
 
@@ -962,7 +962,7 @@ export const ParallaxOneData = {
 
 export const PortfolioHomeData = {
   sectionContent: {
-    title: "عرض الأعمال التي قمنا بها",
+    title: "نبذةعن اعمالنا المميزة لعملائنا",
     subTitle: "معرض أعمالنا",
     text:
       "نحن ملتزمون بتقديم خدمة استثنائية لعملائنا مع تقديم أفضل التدريبات لموظفينا."

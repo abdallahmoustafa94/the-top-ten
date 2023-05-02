@@ -17,7 +17,7 @@ const AboutPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="About Us Page">
+        <Layout PageTitle="من نحن">
           <HeaderOne />
           <PageBanner title="من نحن" name="من نحن" />
           <AboutOne />

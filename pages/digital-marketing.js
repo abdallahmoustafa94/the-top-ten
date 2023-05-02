@@ -12,7 +12,7 @@ const ServiceDetailsPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Service Details Page">
+        <Layout PageTitle="التسويق الرقمي">
           <HeaderOne />
           <PageBanner title="التسويق الرقمي" name="التسويق الرقمي" />
           <ServiceDetails title='التسويق الرقمي'  content="نحن نقدم خدمات التسويق الرقمي في المملكة العربية السعودية للعملاء الذين يرغبون في تحقيق نتائج ملموسة وفعالة من خلال الإعلان عن منتجاتهم وخدماتهم عبر الإنترنت. نحن نمتلك فريق من المتخصصين في التسويق الرقمي، يستخدمون أحدث الأدوات والتقنيات لتحقيق أفضل النتائج.

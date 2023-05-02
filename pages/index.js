@@ -22,14 +22,14 @@ const HomeOne = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Home One">
+        <Layout PageTitle="الرئيسية">
           <HeaderOne />
           <SliderOne />
           <ServiceTwo />
           <AboutTwo />
           <VideoTwo />
           {/* <SubscribeForm /> */}
-          <PortfolioHome />
+          {/* <PortfolioHome /> */}
           <FunfactOne />
           <TrustedClient />
           {/* <TeamCarousel /> */}

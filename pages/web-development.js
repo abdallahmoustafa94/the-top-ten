@@ -12,7 +12,7 @@ const ServiceDetailsPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Service Details Page">
+        <Layout PageTitle="تطوير المواقع الالكترونية">
           <HeaderOne />
           <PageBanner title="تطوير المواقع الالكترونية'" name="تطوير المواقع الالكترونية" />
           <ServiceDetails title='تطوير المواقع الالكترونية'  content="نحن نوفر خدمات تطوير المواقع في المملكة العربية السعودية للعملاء الذين يرغبون في تطوير موقع إلكتروني عالي الجودة والأداء. نحن نمتلك فريق من المطورين المتخصصين والمؤهلين الذين يضمنون تقديم حلول مبتكرة وفعالة للعملاء.

@@ -12,7 +12,7 @@ const ServiceDetailsPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Service Details Page">
+        <Layout PageTitle="تصميم جرافيكي">
           <HeaderOne />
           <PageBanner title="تصميم جرافيكي" name="تصميم جرافيكي" />
           <ServiceDetails title='تصميم جرافيكي'  content="نحن نقدم خدمات تصميم جرافيك في المملكة العربية السعودية للعملاء الذين يحتاجون إلى تصميمات عالية الجودة للعلامات التجارية والمنتجات والخدمات. نحن نتميز بفريق متخصص من المصممين الذين يستخدمون أحدث التقنيات والأدوات لتحقيق أفضل النتائج.

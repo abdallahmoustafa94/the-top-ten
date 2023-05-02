@@ -12,7 +12,7 @@ const ServiceDetailsPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Service Details Page">
+        <Layout PageTitle="تحسين محركات البحث">
           <HeaderOne />
           <PageBanner title="تحسين محركات البحث" name="تحسين محركات البحث" />
           <ServiceDetails title='تحسين محركات البحث'  content="نحن نوفر خدمات تحسين محركات البحث (SEO) في المملكة العربية السعودية للعملاء الذين يرغبون في تحسين مواقعهم الإلكترونية في محركات البحث وزيادة الوصول إلى الجمهور المستهدف. نحن نمتلك فريق من المتخصصين في SEO، يستخدمون أحدث الأدوات والتقنيات لتحقيق أفضل النتائج.
