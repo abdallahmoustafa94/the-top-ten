@@ -92,10 +92,10 @@ const PopupMenu = () => {
           <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
-                <li>Phone: 666 888 000</li>
-                <li>Email: needhelp@meipaly.com</li>
+                <li>التليفون: 0599990530</li>
+                <li>البريد الالكتروني: toptenest10@gmail.com</li>
                 <li>
-                  Address: 66 Broklyn Street, New York United States of America
+                  العنوان: الرياض، المملكة العربية السعودية
                 </li>
               </ul>
             </div>
